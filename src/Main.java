@@ -44,5 +44,8 @@ public class Main {
         int yearCreated = 1995;
         System.out.println(name);
         System.out.println(yearCreated);
+
+        int numComments = 4;
+        System.out.println(numComments);
     }
 }
