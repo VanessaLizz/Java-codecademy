@@ -47,5 +47,15 @@ public class Main {
 
         int numComments = 4;
         System.out.println(numComments);
+        
+        //outros tipos de variáveis
+        double androidShare = 81.7;
+        System.out.println(androidShare);
+
+        boolean intsCanHoldDecimals = false;
+        System.out.println(intsCanHoldDecimals);
+
+        char expectedGrade = 'A';
+        System.out.println(expectedGrade);
     }
 }
