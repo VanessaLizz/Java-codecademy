@@ -57,5 +57,10 @@ public class Main {
 
         char expectedGrade = 'A';
         System.out.println(expectedGrade);
+
+        String openingLyrics = "Yesterday, all my troubles seemed so far away";
+        System.out.println(openingLyrics);
+
+
     }
 }
