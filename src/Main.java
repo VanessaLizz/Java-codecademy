@@ -61,6 +61,19 @@ public class Main {
         String openingLyrics = "Yesterday, all my troubles seemed so far away";
         System.out.println(openingLyrics);
 
+    //nomeação de variáveis
+        String Name = "Samira";
+        String blah = "Smith";
+        String com = "samira@google.com";
+        int salaryexpectation = 100000;
+        int year_of_birth = 1955;
 
+        System.out.println("The program runs!");
+
+        String name = "Vanessa";
+        int age = 29;
+        double desiredSalary = 30000.00;
+        char gender = 'f';
+        boolean lookingForJob = true;
     }
 }
