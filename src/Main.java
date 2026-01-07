@@ -70,10 +70,49 @@ public class Main {
 
         System.out.println("The program runs!");
 
-        String name = "Vanessa";
+        /*String name = "Vanessa";
         int age = 29;
         double desiredSalary = 30000.00;
         char gender = 'f';
         boolean lookingForJob = true;
+
+         */
+
+        MadLibs book = new MadLibs();
+        MadLibs book2 = new MadLibs();
+
+        book.name1 = "Jose";
+        book.name2 = "Maria";
+        book.adjective1 = "a";
+        book.adjective2 = "b";
+        book.adjective3 = "c";
+        book.noun1 = "d";
+        book.noun2 = "e";
+        book.noun3 = "f";
+        book.noun4 = "g";
+        book.noun5 = "h";
+        book.noun6 = "i";
+        book.number = 6;
+        book.verb1 = "j";
+        book.place1 = "l";
+
+        book2.name1 = "Josfbsdbe";
+        book2.name2 = "Mabsngfria";
+        book2.adjective1 = "aegbh";
+        book2.adjective2 = "rgqergb";
+        book2.adjective3 = "c";
+        book2.noun1 = "d";
+        book2.noun2 = "e";
+        book2.noun3 = "f";
+        book2.noun4 = "gfergh";
+        book2.noun5 = "h";
+        book2.noun6 = "i";
+        book2.number = 6;
+        book2.verb1 = "j";
+        book2.place1 = "l";
+
+
+        System.out.println(book.story());
+        System.out.println(book2.story());
     }
 }
