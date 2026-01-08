@@ -119,5 +119,24 @@ public class Main {
         int mystery1 = 8 + 6;
         int mystery2 = 8 - 6;
         System.out.println(mystery2);
+        
+        //adição e subtração
+
+        int zebrasInZoo = 8;
+        int giraffesInZoo = 4;
+        int animalsInZoo = zebrasInZoo + giraffesInZoo;
+        System.out.println(animalsInZoo);
+
+        int numZebrasAfterTrade = zebrasInZoo - 2;
+        System.out.println(numZebrasAfterTrade);
+
+        //multiplicação e divisão
+
+        double subtotal = 30;
+        double tax = 0.0875;
+        double total = (subtotal * tax) + subtotal;
+        System.out.println(total);
+        double perPerson = total / 4;
+        System.out.println(perPerson);
     }
 }
