@@ -111,8 +111,13 @@ public class Main {
         book2.verb1 = "j";
         book2.place1 = "l";
 
-
         System.out.println(book.story());
         System.out.println(book2.story());
+        
+        //manipulando variaveis
+
+        int mystery1 = 8 + 6;
+        int mystery2 = 8 - 6;
+        System.out.println(mystery2);
     }
 }
