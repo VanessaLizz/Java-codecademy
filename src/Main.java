@@ -138,5 +138,11 @@ public class Main {
         System.out.println(total);
         double perPerson = total / 4;
         System.out.println(perPerson);
+
+        //modulo
+
+        int students = 26;
+        int leftOut = students%3;
+        System.out.println(leftOut);
     }
 }
