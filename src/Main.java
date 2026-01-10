@@ -144,5 +144,20 @@ public class Main {
         int students = 26;
         int leftOut = students%3;
         System.out.println(leftOut);
+
+        int numCookies = 17;
+        numCookies -=3;
+        numCookies /=2;
+        // Add your code above
+        System.out.println(numCookies);
+
+        int expression1 = 5 % 2 - (4 * 2 - 1);
+        System.out.println(expression1);
+
+        int expression2 = (3 + (2 * 2 - 5)) + 6 - 5;
+        System.out.println(expression2);
+
+        int expression3 = 5 * 4 % 3 - 2 + 1;
+        System.out.println(expression3);
     }
 }
