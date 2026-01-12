@@ -166,5 +166,47 @@ public class Main {
         System.out.println(creditsEarned > creditsToGraduate);
         double creditsAfterSeminar = creditsEarned + creditsOfSeminar;
         System.out.println(creditsToGraduate < creditsAfterSeminar);
+
+        int songsA = 9;
+        int songsB = 9;
+        int albumLengthA = 41;
+        int albumLengthB = 53;
+        boolean sameNumberOfSongs = songsA == songsB;
+        boolean differentLength = albumLengthA != albumLengthB;
+        System.out.println(sameNumberOfSongs);
+        System.out.println(differentLength);
+
+        double recommendedWaterIntake = 8;
+        double daysInChallenge = 30;
+        double yourWaterIntake = 235.5;
+        double totalRecommendedAmount = recommendedWaterIntake * daysInChallenge;
+        boolean isChallengeComplete = yourWaterIntake >= totalRecommendedAmount;
+        System.out.println(isChallengeComplete);
+
+        String line1 = "Nah nah nah nah nah nah nah nah nah yeah";
+        String line2 = "Nah nah nah nah nah nah, nah nah nah, hey Jude";
+        String line3 = "Nah nah nah nah nah nah, nah nah nah, hey Jude";
+        System.out.println(line1.equals(line2));
+        System.out.println(line2.equals(line3));
+
+        int animals = 12;
+        String species = "zebra";
+        String zooDescription = "Our zoo has " + animals + " " + species + "s!";
+        System.out.println(zooDescription);
+
+        final double pi = 3.14;
+        System.out.println(pi);
+        double pi = 5;
+        System.out.println(pi); // ao usar final em uma variação, ela não poderá ser alterada e qualquer tentativa ocasionar em uma mensagem de erro.
+
+        //revisão e aplicações de variáveis
+
+        double balance = 1000.75;
+        double amountToWithdraw = 250;
+        double updatedBalance = balance - amountToWithdraw;
+        double amountForEachFriend = updatedBalance / 3;
+        boolean canPurchaseTicket = amountForEachFriend >= 250;
+        System.out.println(canPurchaseTicket);
+        System.out.println("I gave each friend " + amountForEachFriend);
     }
 }
