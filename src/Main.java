@@ -219,5 +219,11 @@ public class Main {
         int stepFive = stepFour - myNumber;
         int stepSix = stepFive / 6;
         System.out.println(stepSix); //qualquer valor de variável colocada em my number gerará o mesmo resultado em stepSix
+
+        //classes em Java
+
+        Store newStore = new Store();
+
+        Dog newDog = new Dog();
     }
 }
