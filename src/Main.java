@@ -208,5 +208,16 @@ public class Main {
         boolean canPurchaseTicket = amountForEachFriend >= 250;
         System.out.println(canPurchaseTicket);
         System.out.println("I gave each friend " + amountForEachFriend);
+
+        //número mágico
+
+        int myNumber = 15; //numero original
+        int stepOne = myNumber * myNumber;
+        int stepTwo = stepOne + myNumber;
+        int stepThree = stepTwo / myNumber;
+        int stepFour = stepThree + 17;
+        int stepFive = stepFour - myNumber;
+        int stepSix = stepFive / 6;
+        System.out.println(stepSix); //qualquer valor de variável colocada em my number gerará o mesmo resultado em stepSix
     }
 }
