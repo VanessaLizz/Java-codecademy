@@ -225,5 +225,8 @@ public class Main {
         Store newStore = new Store();
 
         Dog newDog = new Dog();
+
+        Store lemonadeStand = new Store("lemonade");
+        System.out.println(lemonadeStand.productType);
     }
 }
