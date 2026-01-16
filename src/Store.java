@@ -1,8 +1,13 @@
 public class Store {
     public String productType;
-    public Store(String product) {
+    int inventoryCount;
+    double inventoryPrice;
+
+    // constructor method
+    public Store(String product, int count, double price) {
         productType = product;
-        System.out.println("I am inside the Store constructor");
+        inventoryCount = count;
+        inventoryPrice = price;
     }
 
 }

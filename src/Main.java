@@ -228,5 +228,7 @@ public class Main {
 
         Store lemonadeStand = new Store("lemonade");
         System.out.println(lemonadeStand.productType);
+
+        Store cookieShop = new Store("cookies", 12, 3.75);
     }
 }
