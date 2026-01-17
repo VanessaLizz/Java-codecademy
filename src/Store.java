@@ -10,4 +10,8 @@ public class Store {
         inventoryPrice = price;
     }
 
+    public void advertise(){
+        System.out.println("Come spend some money!");
+        System.out.println("Selling " + productType + "!");
+
 }
