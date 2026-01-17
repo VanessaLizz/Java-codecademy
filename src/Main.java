@@ -226,9 +226,10 @@ public class Main {
 
         Dog newDog = new Dog();
 
-        Store lemonadeStand = new Store("lemonade");
+        Store lemonadeStand = new Store("coffee");
         System.out.println(lemonadeStand.productType);
 
         Store cookieShop = new Store("cookies", 12, 3.75);
+        lemonadeStand.advertise();
     }
 }
