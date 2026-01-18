@@ -14,4 +14,7 @@ public class Store {
         System.out.println("Come spend some money!");
         System.out.println("Selling " + productType + "!");
 
+        public void greetCustomer(String customerName) {
+            System.out.println("Welcome to the store, " + customerName + "!");
+
 }
