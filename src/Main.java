@@ -228,6 +228,8 @@ public class Main {
 
         Store lemonadeStand = new Store("coffee");
         System.out.println(lemonadeStand.productType);
+        lemonadeStand.increasePrice(1.5);
+        System.out.println(lemonadeStand.price);
 
         Store cookieShop = new Store("cookies", 12, 3.75);
         lemonadeStand.advertise();

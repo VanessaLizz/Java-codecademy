@@ -10,11 +10,18 @@ public class Store {
         inventoryPrice = price;
     }
 
-    public void advertise(){
+    public void advertise() {
         System.out.println("Come spend some money!");
         System.out.println("Selling " + productType + "!");
 
-        public void greetCustomer(String customerName) {
+        public void greetCustomer (String customerName){
             System.out.println("Welcome to the store, " + customerName + "!");
+
+        }
+    }
+
+    public void increasePrice(double priceToAdd){
+        double newPrice = price + priceToAdd;
+        price = newPrice;
 
 }
