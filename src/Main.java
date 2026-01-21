@@ -234,5 +234,8 @@ public class Main {
         Store cookieShop = new Store("cookies", 12, 3.75);
         lemonadeStand.advertise();
         lemonadeStand.greetCustomer("Codey");
+
+        double lemonadePrice = lemonadeStand.getPriceWithTax();
+        System.out.println(lemonadePrice);
     }
 }
