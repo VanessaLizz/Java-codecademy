@@ -1,5 +1,6 @@
 public class Store {
     public String productType;
+    public double price;
     int inventoryCount;
     double inventoryPrice;
 
@@ -27,8 +28,12 @@ public class Store {
         price = newPrice;
     }
 
-    public double getPriceWithTax(){
-        double totalPrice = price + price*tax;
+    public double getPriceWithTax() {
+        double totalPrice = price + price * tax;
         return totalPrice;
+    }
 
+    public String toString(){
+        return "This store sells " + productType + " at a price of " + price + ".";
+    }
 }

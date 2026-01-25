@@ -237,5 +237,6 @@ public class Main {
 
         double lemonadePrice = lemonadeStand.getPriceWithTax();
         System.out.println(lemonadePrice);
+        System.out.println(cookieShop);
     }
 }
